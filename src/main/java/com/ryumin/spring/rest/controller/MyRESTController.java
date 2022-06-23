@@ -21,7 +21,7 @@ public class MyRESTController {
     }
 
     @GetMapping("/employees/{id}")
-    public Employee showEmployee(@PathVariable Integer id ) {
+    public Employee showEmployee(@PathVariable Integer id) {
         Employee employee = employeeService.getEmployee(id);
         if (employee == null) {
             throw new NoSuchEmployeeException("Employee with id = " + id + " no found");
@@ -39,5 +39,15 @@ public class MyRESTController {
     public Employee updateEmployee(@RequestBody Employee employee) {
         employeeService.saveEmployee(employee);
         return employee;
+    }
+
+    @DeleteMapping("/employees/{id}")
+    public String deleteEmployee(@PathVariable int id) {
+        Employee employee = employeeService.getEmployee(id);
+        if (employee == null) {
+            throw new NoSuchEmployeeException("Employee with id = " + id + " no found");
+        }
+        employeeService.deleteEmployee(id);
+        return "Employee with id  = " + id + " was deleted";
     }
 }

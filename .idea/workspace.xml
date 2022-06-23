@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added Http POST: add new employee">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added Http PUT: update employee">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656000464296</updated>
       <workItem from="1656000470892" duration="8295000" />
-      <workItem from="1656018368151" duration="1054000" />
+      <workItem from="1656018368151" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="Added HTTP method GET: get all employees">
       <created>1656003869299</created>
@@ -208,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656008833607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Http POST: add new employee">
+      <created>1656019459483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656019459483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Http PUT: update employee">
+      <created>1656019777161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656019777161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,7 @@
     <MESSAGE value="Added: ExceptionHandler" />
     <MESSAGE value="Global exception handler" />
     <MESSAGE value="Added Http POST: add new employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Http POST: add new employee" />
+    <MESSAGE value="Added Http PUT: update employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Http PUT: update employee" />
   </component>
 </project>
