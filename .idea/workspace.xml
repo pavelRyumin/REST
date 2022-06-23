@@ -9,8 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added HTTP method GET: get all employees">
+    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added HTTP method GET: get employee by id">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/exception_handling/EmployeeIncorrectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/exception_handling/IncorrectEmployeeID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/exception_handling/NoSuchEmployeeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/validator/ValidateInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656000464296</updated>
-      <workItem from="1656000470892" duration="4469000" />
+      <workItem from="1656000470892" duration="7533000" />
     </task>
     <task id="LOCAL-00001" summary="Added HTTP method GET: get all employees">
       <created>1656003869299</created>
@@ -185,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656003869299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added HTTP method GET: get employee by id">
+      <created>1656005022383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656005022383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added HTTP method GET: get all employees" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HTTP method GET: get all employees" />
+    <MESSAGE value="Added HTTP method GET: get employee by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HTTP method GET: get employee by id" />
   </component>
 </project>
