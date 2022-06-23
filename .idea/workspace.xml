@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added: ExceptionHandler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
+    <list default="true" id="14300972-4d13-470a-b416-819b9b3b106e" name="Changes" comment="Added Http POST: add new employee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryumin/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
@@ -71,7 +70,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "4175512d71d30da9f68e9bad007b4834"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -177,7 +177,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656000464296</updated>
-      <workItem from="1656000470892" duration="8238000" />
+      <workItem from="1656000470892" duration="8295000" />
+      <workItem from="1656018368151" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="Added HTTP method GET: get all employees">
       <created>1656003869299</created>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656008391293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Global exception handler">
+      <created>1656008833607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656008833607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +229,8 @@
     <MESSAGE value="Added HTTP method GET: get all employees" />
     <MESSAGE value="Added HTTP method GET: get employee by id" />
     <MESSAGE value="Added: ExceptionHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: ExceptionHandler" />
+    <MESSAGE value="Global exception handler" />
+    <MESSAGE value="Added Http POST: add new employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Http POST: add new employee" />
   </component>
 </project>
